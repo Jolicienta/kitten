@@ -1,3 +1,21 @@
-@media (max-width: 1200px) and (min-width: 980px) {
 
+@media (min-width: 376px) and (max-width: 667px) {
+  body {
+    background-image: url(../img/night.jpg);
+  }
+  #gatito {
+    background-image: url(../img/kitten-small.png);
+    margin-top: 5%;
+  }
+}
+
+
+@media (min-width: 667px) and (max-width: 900px) {
+  body {
+    background-image: url(../img/dawn.png);
+  }
+  #gatito {
+    background-image: url(../img/kitten-medium.png);
+    margin-top: 15%;
+  }
 }
